@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #020617, #0f172a);
+  color: #e2e8f0;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3 {
+  color: #38bdf8;
+}
+
+button {
+  background: #38bdf8;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #0ea5e9;
+}

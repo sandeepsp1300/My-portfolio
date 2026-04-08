@@ -1,0 +1,61 @@
+.about {
+  padding: 80px 10%;
+  text-align: center;
+}
+
+/* DESCRIPTION */
+.about-desc {
+  max-width: 700px;
+  margin: 20px auto;
+  color: #cbd5f5;
+  line-height: 1.6;
+}
+
+/* SECTION */
+.section {
+  margin-top: 50px;
+}
+
+/* SKILLS */
+.skills {
+  margin-top: 20px;
+}
+
+.skills span {
+  display: inline-block;
+  background: #1e293b;
+  margin: 8px;
+  padding: 10px 18px;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+
+.skills span:hover {
+  background: #38bdf8;
+  color: black;
+}
+
+/* EDUCATION CARDS */
+.education-card {
+  background: #1e293b;
+  margin: 15px auto;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+}
+
+/* FOCUS LIST */
+.focus {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.focus li {
+  margin: 10px 0;
+  color: #94a3b8;
+}
+
+/* RESUME BUTTON */
+.resume {
+  margin-top: 40px;
+}

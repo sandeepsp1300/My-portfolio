@@ -1,0 +1,117 @@
+.home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 10%;
+  min-height: 90vh;
+}
+
+/* LEFT SIDE */
+.home-left {
+  max-width: 500px;
+}
+
+.intro {
+  font-size: 18px;
+  color: #94a3b8;
+}
+
+.name {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.role {
+  font-size: 22px;
+  color: #38bdf8;
+}
+
+.desc {
+  margin-top: 15px;
+  line-height: 1.6;
+  color: #cbd5f5;
+}
+
+/* BUTTONS */
+.buttons {
+  margin-top: 25px;
+}
+
+.primary {
+  background: #38bdf8;
+  margin-right: 10px;
+}
+
+.secondary {
+  background: transparent;
+  border: 1px solid #38bdf8;
+  color: #38bdf8;
+}
+
+/* SOCIAL LINKS */
+.socials {
+  margin-top: 20px;
+}
+
+.socials a {
+  margin-right: 15px;
+  color: #94a3b8;
+  transition: 0.3s;
+}
+
+.socials a:hover {
+  color: #38bdf8;
+}
+
+/* RIGHT SIDE */
+.home-right {
+  position: relative;
+}
+
+/* Glow Circle */
+.circle {
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle, #38bdf8, transparent);
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: -50px;
+  filter: blur(80px);
+  animation: float 4s ease-in-out infinite;
+}
+
+/* Info Card */
+.card {
+  position: relative;
+  background: rgba(30, 41, 59, 0.7);
+  padding: 25px;
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  width: 250px;
+}
+
+.card h3 {
+  margin-top: 10px;
+  color: #38bdf8;
+}
+
+/* ANIMATION */
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0); }
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .home {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .home-right {
+    margin-top: 40px;
+  }
+}
